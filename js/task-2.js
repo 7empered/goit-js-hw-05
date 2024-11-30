@@ -33,7 +33,7 @@ const allUsers = [
 ];
 
 
-console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
+console.log('Task 2:', getUsersWithFriend(allUsers, "Briana Decker")); 
 // [
 //   {
 //     name: "Sharlene Bush",
@@ -45,7 +45,7 @@ console.log(getUsersWithFriend(allUsers, "Briana Decker"));
 //   }
 // ]
 
-console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
+console.log('Task 2:', getUsersWithFriend(allUsers, "Goldie Gentry"));
 // [
 //   {
 //     name: "Elma Head",
@@ -57,4 +57,4 @@ console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
 //   }
 // ]
 
-console.log(getUsersWithFriend(allUsers, "Adrian Cross" )); // []
+console.log('Task 2:', getUsersWithFriend(allUsers, "Adrian Cross" )); // []

@@ -1,7 +1,7 @@
 const sortByDescendingFriendCount = users => users.toSorted((a, b) => b.friends.length - a.friends.length)
 
 
-console.log(
+console.log('Task 3:',
   sortByDescendingFriendCount([
     {
       name: "Moore Hensley",
